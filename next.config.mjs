@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+ output: 'export',
+  images: { unoptimized: true },
+  basePath: '/radix-sort', // important!
+  assetPrefix: '/radix-sort',
 }
 
 export default nextConfig
